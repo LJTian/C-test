@@ -8,3 +8,4 @@ test7:      sizeofStructArrt    	[结构体数据求sizeof会不会core]
 test8:      GetValueOfDomain    	[从字符串中根据分隔符获取对应域的值]
 test9:      TestReturnCore    	[函数测试返回时报core问题]
 test10:      Test=+Gcc    	[测试Gcc编译时 =+ 是否报错]
+test11:
