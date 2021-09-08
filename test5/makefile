@@ -1,2 +1,4 @@
+LIBDIR=`pwd`
+
 run:
-	gcc main.c -Llib -lvlog -lprintlog
+	gcc main.c -L./lib -lvlog -lprintlog

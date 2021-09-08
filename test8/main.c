@@ -48,11 +48,11 @@ int GetValueOfDomain(char *psOldBuff, char cSep, int domain, char *psOutBuff )
 
 void main(void)
 {
-	char tmpbuff[] = "01,12,13,14,15,16,17,18,19,10";
+	char tmpbuff[] = "01,,,,,,,,,10";
 	char outbuff[1024];
 	printf( "tmpbuff is [%s]\n", tmpbuff);
 	memset( outbuff, 0x00, 1024);
-	if (GetValueOfDomain(tmpbuff, ',',9,outbuff))
+	if (GetValueOfDomain(tmpbuff, ',',2,outbuff))
 	{
 		printf("失败!\n");
 	}
