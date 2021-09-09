@@ -9,3 +9,5 @@ test8:      GetValueOfDomain    	[从字符串中根据分隔符获取对应域�
 test9:      TestReturnCore    	[函数测试返回时报core问题]
 test10:      Test=+Gcc    	[测试Gcc编译时 =+ 是否报错]
 test11:
+test12:
+CaptchaGenerator:	C语言 编写 验证码生成器	[支持 纯数字、数字加字母大小写的7种组合, 稍微修改一下就可以变成密码随机生成器]
