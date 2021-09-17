@@ -1,0 +1,7 @@
+﻿  main.c
+main.c(7): warning C4101: “buff1”: 未引用的局部变量
+  正在生成代码
+  All 5 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+  returnCore.vcxproj -> F:\c-test\returnCore\Release\returnCore.exe
+  returnCore.vcxproj -> F:\c-test\returnCore\Release\returnCore.pdb (Full PDB)

@@ -1,0 +1,4 @@
+﻿  main.c
+f:\c-test\returncore\returncore\main.c(7): warning C4101: “buff1”: 未引用的局部变量
+  returnCore.vcxproj -> F:\c-test\returnCore\Debug\returnCore.exe
+  returnCore.vcxproj -> F:\c-test\returnCore\Debug\returnCore.pdb (Partial PDB)

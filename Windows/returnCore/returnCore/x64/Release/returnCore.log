@@ -1,0 +1,18 @@
+﻿  main.c
+main.c(7): warning C4101: “buff1”: 未引用的局部变量
+main.c(25): warning C4013: “atoi”未定义；假设外部返回 int
+main.c(26): warning C4013: “atol”未定义；假设外部返回 int
+main.c(27): warning C4013: “atoll”未定义；假设外部返回 int
+main.c(29): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“std::size_t”
+  main.c(29): note: 请考虑在格式字符串中使用“%zd”
+main.c(33): warning C4477: “printf”: 格式字符串“%lld”需要类型“__int64”的参数，但可变参数 1 拥有了类型“unsigned int”
+  main.c(33): note: 请考虑在格式字符串中使用“%d”
+  main.c(33): note: 请考虑在格式字符串中使用“%I32d”
+main.c(33): warning C4477: “printf”: 格式字符串“%llu”需要类型“unsigned __int64”的参数，但可变参数 2 拥有了类型“unsigned int”
+  main.c(33): note: 请考虑在格式字符串中使用“%u”
+  main.c(33): note: 请考虑在格式字符串中使用“%I32u”
+  正在生成代码
+  All 5 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+  returnCore.vcxproj -> F:\c-test\returnCore\x64\Release\returnCore.exe
+  returnCore.vcxproj -> F:\c-test\returnCore\x64\Release\returnCore.pdb (Full PDB)
