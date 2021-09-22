@@ -35,6 +35,4 @@ void main(void)
 	show_int(iVal);
 	show_float(fVal);
 	show_pointer(pVal);
-
-
 }
