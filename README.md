@@ -1,4 +1,4 @@
-#Linux :
+#Linux :  
     before                          [在main函数之前挂载函数]
     structField                     [根据结构体内的字段获取对应的值]
     show_bytes                      [深入操作系统-查看类型地址]
