@@ -98,15 +98,16 @@ int bGetRandCode(int iType, char *pcRandCode, int iLen )
         case 0:
 
 #if NUM_EFFT_FLAG
+		if( iLen < 10 )
+		{
 			iMaxBit = 1;
 			iMaxLen = iLen;
 			while( iMaxLen-- ) iMaxBit *= 10;
-           // sprintf( pcRandCode, "%0*ld\0", iLen, bRandNum( iMinBit, iMaxBit, 10 ));
-            sprintf( pcRandCode, "%0*ld\0", iLen, bRandNum( 100000, iMaxBit, 10 ));
+            		sprintf( pcRandCode, "%0*d", iLen, bRandNum( iMinBit, iMaxBit, 10 ));
 			return 0;
-#else   
-            iMaxBit = iRandMaxNum[0];
+		}
 #endif
+            iMaxBit = iRandMaxNum[0];
             break;
 
         // 字母
@@ -189,10 +190,10 @@ void TestGenRandCode()
 void main()
 #endif
 {
-    char buff[7];
+    char buff[1024];
     int iRet = 0;
     memset( buff, 0x00, sizeof(buff));
-    iRet = bGetRandCode( 0, buff, 6);
+    iRet = bGetRandCode( 0, buff, 16);
     if ( iRet )
     {
         printf( "err! iRet is [%d]", iRet);
